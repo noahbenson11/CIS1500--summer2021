@@ -25,7 +25,7 @@ public class Project_1 {
         System.out.println(name+", how many credits have you taken?");
         double creditsTaken= Double.parseDouble(keyboard.nextLine());
         double remainingCredits=creditsNeeded-creditsTaken;
-        System.out.println(name+", you need "+remainingCredits+" to graduate.");
+        System.out.println(name+", you need "+remainingCredits+" credits to graduate.");
         System.out.println(name+", how many credits do you usually take per semester?");
         double averageCredits= Double.parseDouble(keyboard.nextLine());
         System.out.println(name+", What is your average cost per credit?");
